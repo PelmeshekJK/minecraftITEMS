@@ -1,115 +1,175 @@
 unlimited:
-  update: 86400
+  update: 10800
   items:
-    CHORUS_FRUIT:
-      min-price: 3,5
-      max-price: 30,0
+    ghast_tear:
+      min-price: 100
+      max-price: 500
+    ender_pearl: 
+      min-price: 25
+      max-price: 690
+    gold_ingot:
+      min-price: 10
+      max-price: 20
+    iron_ingot:
+      min-price: 5
+      max-price: 18
+    coal:
+      min-price: 5
+      max-price: 10
+    charcoal:
+      min-price: 10
+      max-price: 20
+    tnt:
+      min-price: 40
+      max-price: 100
+    turtle_egg:
+      min-price: 250
+      max-price: 500
+    obsidian:
+      min-price: 100
+      max-price: 200
+    lapis_block:
+      min-price: 50
+      max-price: 100
+    amethyst_block:
+      min-price: 100
+      max-price: 250
+    gold_block:
+      min-price: 150
+      max-price: 200
+    iron_block:
+      min-price: 100
+      max-price: 250
+    netherite_block:
+      min-price: 5000
+      max-price: 12000
+    DIAMOND:
+      min-price: 50
+      max-price: 100
+    DIAMOND_BLOCK:
+      min-price: 250
+      max-price: 1000
     HONEY_BOTTLE:
-      min-price: 12,0
-      max-price: 120,5
-    COCOA_BEANS:
-      min-price: 4,0
-      max-price: 40,5
+      min-price: 40,0
+      max-price: 120,0
     MUTTON:
       min-price: 1,5
       max-price: 4,5
-    ROTTEN_FLESH:
-      min-price: 1,5
-      max-price: 4,5
-    BOWL:
-      min-price: 1,5
-      max-price: 4,0
-    STICK:
-      min-price: 1,5
-      max-price: 2,0
     NETHERITE_INGOT:
       min-price: 300
-      max-price: 1000
+      max-price: 800
     BOOK:
       min-price: 2
       max-price: 5
-    PAPER:
-      min-price: 1
-      max-price: 3
     BLAZE_ROD:
       min-price: 4
-      max-price: 20
+      max-price: 40
     CAKE:
       min-price: 4
-      max-price: 20
+      max-price: 40
     BREAD:
       min-price: 3
       max-price: 10
     APPLE:
       min-price: 3
       max-price: 10
-    STRING:
-      min-price: 3
-      max-price: 10
     FEATHER:
-      min-price: 3
+      min-price: 2
       max-price: 10
     GUNPOWDER:
-      min-price: 3
-      max-price: 10
-    WHEAT_SEEDS:
-      min-price: 3
-      max-price: 10
+      min-price: 1
+      max-price: 5
     WHEAT:
-      min-price: 3
-      max-price: 10
+      min-price: 1
+      max-price: 5
     GLOWSTONE_DUST:
       min-price: 3
-      max-price: 40
+      max-price: 20
 limited: # ВМЕСТО ТОЧКИ ИСПОЛЬЗУЙТЕ , (ЭТО ВАЖНО)
-  limit: 2500
-  update: 1800
+  limit: 256
+  update: 10800
   items:
+    lapis_lazuli:
+      min-price: 10
+      max-price: 15
+    emerald:
+      min-price: 50
+      max-price: 100
+    birch_log:
+      min-price: 1,0
+      max-price: 3,0
+    jungle_log:
+      min-price: 1,0
+      max-price: 3,0
+    acacia_log:
+      min-price: 1,0
+      max-price: 3,0
+    dark_oak_log:
+      min-price: 1,0
+      max-price: 3,0
+    spruce_log:
+      min-price: 1,0
+      max-price: 3,0
+    oak_log:
+      min-price: 1,0
+      max-price: 3,0
     MAGMA_CREAM:
-      min-price: 50,0
-      max-price: 500,0
+      min-price: 30,0
+      max-price: 60,0
     SWEET_BERRIES:
       min-price: 5,0
-      max-price: 50,0
+      max-price: 13,0
     BEETROOT:
-      min-price: 30,0
-      max-price: 100,0
+      min-price: 5,0
+      max-price: 10,0
     SPIDER_EYE:
       min-price: 6,0
-      max-price: 60,0
+      max-price: 10,0
     PUFFERFISH:
       min-price: 35,0
-      max-price: 240,0
+      max-price: 70,0
     DRIED_KELP:
       min-price: 8,0
-      max-price: 80,0
-    CHARCOAL:
-      min-price: 40,0
-      max-price: 400,0
-    TURTLE_EGG:
-      min-price: 230,0
-      max-price: 2300,0
+      max-price: 13,0
     FLINT:
       min-price: 4,0
-      max-price: 40,0
+      max-price: 20,0
     CLOCK:
       min-price: 10,0
       max-price: 40,0
     GOLDEN_APPLE:
       min-price: 100,0
-      max-price: 600,0
+      max-price: 300,0
     TROPICAL_FISH:
       min-price: 30,0
-      max-price: 500,0
+      max-price: 100,0
     COD:
       min-price: 5,0
-      max-price: 100,0
+      max-price: 30,0
     SALMON:
       min-price: 15,0
-      max-price: 140,0
+      max-price: 50,0
     COOKIE:
       min-price: 3,0
       max-price: 30,0
     MELON_SLICE:
       min-price: 3,0
+      max-price: 5,0
+    COCOA_BEANS:
+      min-price: 3,5
+      max-price: 10,0
+    ROTTEN_FLESH:
+      min-price: 0,3
+      max-price: 2,0
+    STICK:
+      min-price: 0,3
+      max-price: 1,0
+    CHORUS_FRUIT:
+      min-price: 3,5
       max-price: 20,0
+    PAPER:
+      min-price: 1
+      max-price: 3
+    STRING:
+      min-price: 0,3
+      max-price: 1,0
